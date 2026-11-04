@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-04T12:35:11.150Z",
+  "repo": {
+    "connectorId": 119,
+    "repoSlug": "chsh-01/lais1608_bugtest",
+    "baseBranch": "main"
+  },
+  "team": {
+    "assetId": 7350,
+    "displayId": "TM-1",
+    "name": "ServiceNow"
+  },
+  "tree": [
+    {
+      "assetId": 7383,
+      "displayId": "FD-6",
+      "name": "TestCases",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 5156,
+          "displayId": "TC-21",
+          "name": "[C46717]_ServiceNow_ServiceHelpDocument-Blocked",
+          "kind": "test-case",
+          "repoPath": "TestCases/TC-21-[C46717]_ServiceNow_ServiceHelpDocument-Blocked.spec.ts"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "assetId": 5156,
+      "assetKind": "test-case",
+      "displayId": "TC-21",
+      "name": "[C46717]_ServiceNow_ServiceHelpDocument-Blocked",
+      "repoPath": "TestCases/TC-21-[C46717]_ServiceNow_ServiceHelpDocument-Blocked.spec.ts",
+      "parentAssetId": 7383
+    }
+  ]
+}
