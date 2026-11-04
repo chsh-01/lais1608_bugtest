@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T12:35:11.150Z",
+  "generatedAt": "2026-11-04T13:45:38.839Z",
   "repo": {
     "connectorId": 119,
     "repoSlug": "chsh-01/lais1608_bugtest",
@@ -12,6 +12,59 @@
     "name": "ServiceNow"
   },
   "tree": [
+    {
+      "assetId": 11741,
+      "displayId": "FD-9",
+      "name": "Agent",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 11742,
+          "displayId": "AG-1",
+          "name": "UpdatedByJIH",
+          "kind": "agent",
+          "repoPath": "Agent/AG-1-UpdatedByJIH.agent.json"
+        }
+      ]
+    },
+    {
+      "assetId": 7351,
+      "displayId": "FD-1",
+      "name": "ServiceNow",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 7359,
+          "displayId": "FD-4",
+          "name": "Commons",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 7361,
+              "displayId": "TC-5",
+              "name": "AddRequestedItem",
+              "kind": "test-case",
+              "repoPath": "ServiceNow/Commons/TC-5-AddRequestedItem.spec.ts"
+            }
+          ]
+        },
+        {
+          "assetId": 7356,
+          "displayId": "FD-3",
+          "name": "Helpers",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 7380,
+              "displayId": "TS-8",
+              "name": "AddProductToCart",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-8-AddProductToCart.ts"
+            }
+          ]
+        }
+      ]
+    },
     {
       "assetId": 7383,
       "displayId": "FD-6",
@@ -29,6 +82,30 @@
     }
   ],
   "files": [
+    {
+      "assetId": 11742,
+      "assetKind": "agent",
+      "displayId": "AG-1",
+      "name": "UpdatedByJIH",
+      "repoPath": "Agent/AG-1-UpdatedByJIH.agent.json",
+      "parentAssetId": 11741
+    },
+    {
+      "assetId": 7361,
+      "assetKind": "test-case",
+      "displayId": "TC-5",
+      "name": "AddRequestedItem",
+      "repoPath": "ServiceNow/Commons/TC-5-AddRequestedItem.spec.ts",
+      "parentAssetId": 7359
+    },
+    {
+      "assetId": 7380,
+      "assetKind": "typescript",
+      "displayId": "TS-8",
+      "name": "AddProductToCart",
+      "repoPath": "ServiceNow/Helpers/TS-8-AddProductToCart.ts",
+      "parentAssetId": 7356
+    },
     {
       "assetId": 5156,
       "assetKind": "test-case",
