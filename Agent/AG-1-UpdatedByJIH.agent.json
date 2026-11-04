@@ -1,4 +1,4 @@
 {
-  "agent_definition": "await context.assets.create({\n  type: \"test-case\",\n  name: 'TC-1',\n  description: 'Leapwork test case'\n});",
+  "agent_definition": "await context.assets.create({\n  type: \"test-case\",\n  name: 'TC-1',\n  description: 'Leapwork test case'\n});\n\n//leapwork agent",
   "typescript_code": ""
 }
